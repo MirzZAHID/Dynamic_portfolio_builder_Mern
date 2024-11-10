@@ -1,0 +1,398 @@
+/* src/components/Home.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  background-color: #282b8f;
+  color: #fff;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 55px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.how-to-create-resume,
+
+.get-started {
+  padding-top: 120px!important;
+  padding-bottom: 120px!important;
+  background-color: #282b8f;
+  padding: 60px 120px;
+  text-align: center;
+}
+
+.get-started  p{
+  color: #fff;
+}
+
+.featured-templates{
+  padding-top: 120px!important;
+  padding-bottom: 120px!important;
+  background-color: #F8F9FA;
+  padding: 60px 120px;
+  text-align: center;
+}
+
+.full-width-section {
+  /* Remove max-width and margin properties */
+}
+
+.how-to-create-resume h2,
+
+.get-started h2 {
+  font-size: 46px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 55px;
+  color: #fff;
+}
+
+.featured-templates h2{
+  color:#282b8f;
+  font-size: 46px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 55px;
+
+}
+
+.steps,
+.templates {
+  padding-left: 20px;  
+  padding-right: 0px;
+
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.step,
+.template {
+  margin: 20px;
+  width: 30%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.step:hover,
+.template:hover {
+  transform: translateY(-5px);
+}
+
+.step img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.create-cv-btn,
+.get-started-btn {
+
+  margin-top: 40px;
+  background-color: #fff;
+  color: #282b8f;
+  padding: 15px 30px;
+  font-size: 21px;
+  font-weight: 600 ;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+
+.create-cv-btn:hover,
+.get-started-btn:hover {
+  background-color: #F8F9FA;
+}
+
+section.get-started.full-width-section {
+  background-color: #282b8f;
+  color: #fff;
+  text-align: center;
+  padding: 80px 0;
+}
+
+section.get-started.full-width-section h2{
+  color: #fff;
+}
+
+/* src/components/Home.css */
+/* ... existing styles ... */
+
+.two-column-section{
+  background-color:#EFF2F9;
+  margin-top: 0px!important;
+  margin-bottom: 0px!important;
+}
+
+.two-column-content {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.two-column-text {
+  text-align: left;
+  margin-left: 50px;
+  max-width: 50%; /* Each column takes up 50% of the width */
+}
+
+.two-column-text h1 {
+  font-size: 46px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 55px;
+  color: #1e2532;
+}
+
+.two-column-text p {
+  color: #1e2532;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.two-column-content img {
+  margin-right: 50px;
+  max-width: 50%; /* Each column takes up 50% of the width */
+  height: auto;
+  border-radius: 10px;
+}
+
+/* ... existing styles ... */
+
+/* src/components/Home.css */
+/* ... existing styles ... */
+
+.features-section {
+  background-color: #f8f9fa;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 120px;
+  padding-bottom:50px ;
+  text-align: center;
+}
+.features-section2 {
+  background-color: #f8f9fa;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 120px;
+
+
+  padding-top: 10px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+
+.features-section h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  max-width: 736px;
+  text-align: center;
+  margin: 0 auto 70px;
+  color: #333;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.feature {
+  width: 28%;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+}
+
+.feature img {
+  margin: 0 auto; 
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.feature h3 {
+  color: #282b8f;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 4px;
+
+}
+
+.feature p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1e2532;
+  font-size: 1.2rem;
+}
+
+h3 {
+  color: #282b8f;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 10px;
+
+}
+p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1e2532;
+  font-size: 1.2rem;
+}
+
+.footer {
+  background-color: #fff!important;
+}
+/* ... existing styles ... */
+
+.logform-section {
+  padding-top: 80px;
+  padding-left: 450px!important;
+  padding-right: 450px!important;
+}
+
+
+/* src/components/Home.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ... existing styles ... */
+
+/* Responsive Styles */
+
+@media only screen and (max-width: 1200px) {
+  .hero-content {
+    max-width: 90%;
+  }
+  
+
+  .how-to-create-resume,
+  .get-started,
+  .featured-templates,
+  .two-column-section,
+  .features-section,
+  .features-section2,
+  .logform-section {
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+  }
+
+  .two-column-text,
+  .two-column-content img {
+    max-width: 100%;
+  }
+
+  .steps,
+  .templates,
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step,
+  .template,
+  .feature {
+    width: 90%;
+    margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero h1 {
+    font-size: 36px;
+    line-height: 45px;
+  }
+
+  .introdction{
+    padding: 60px 10px!important;
+}
+  .hero p,
+  .how-to-create-resume p,
+  .get-started p,
+  .two-column-text p,
+  .features-section h2,
+  .feature p,
+  h3,
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .how-to-create-resume h2,
+  .get-started h2,
+  .featured-templates h2,
+  .two-column-text h1,
+  .features-section h2,
+  h3 {
+    font-size: 24px;
+    line-height: 35px;
+  }
+
+  .create-cv-btn,
+  .get-started-btn {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+
+  .steps,
+  .templates,
+  .features {
+    margin-top: 20px;
+  }
+
+  .steps,
+.templates {
+padding-left: 10px!important;
+padding-right: 10px!important;
+
+
+}
+}

@@ -1,0 +1,22 @@
+.category-page {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .category-item {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+ 
+  

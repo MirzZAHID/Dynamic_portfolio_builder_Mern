@@ -1,0 +1,90 @@
+.logo {
+  height: 80px!important;
+  width: 100px!important;
+}
+
+.MuiPaper-root.MuiAppBar-root {
+  background-color: white;
+  box-shadow: 0px 0px 8px 4px rgb(228, 228, 228);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.MuiContainer-root.MuiContainer-maxWidthXl {
+  padding: 5px 30px;
+}
+
+.nav-links {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+button.MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary.MuiButton-sizeMedium.MuiButton-containedSizeMedium.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  background: #282B8F;
+}
+
+
+.nav-link {
+   display: inline!important;
+
+}
+
+.tab-navigation {
+  margin-bottom: 50px;
+}
+.d-flex.justify-content-center.align-items-center.bg-primary.vh-100 {
+  background: #282B8F!important;
+}
+
+
+/* Navbar.css */
+
+/* Add background color for Login */
+.loginLink {
+  padding: 10px 30px 10px 30px!important;
+  color: #fff !important;;
+  background-color: #282B8F!important; /* Replace 'your-color' with the desired background color */
+  border-radius: 10px!important;
+}
+
+/* Add background color for Register */
+.registerLink {
+
+  padding: 10px 30px 10px 30px!important;
+  color: #fff !important;
+  border-radius: 10px!important;
+
+  background-color: #282B8F!important; /* Replace 'your-color' with the desired background color */
+}
+
+
+.nav-link {
+  font-size: 18px!important;
+  color: black;
+  text-decoration: none;
+  font-weight: 600!important;
+  margin-right: 40px;
+}
+
+.nav-link:hover {
+  color: rgb(0, 98, 255);
+}
+
+.drawerLinks a {
+  margin-top: 30px;
+}
+
+.active {
+  color: rgb(0, 128, 255);
+}
+.MuiToolbar-root.MuiToolbar-regular {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (min-width: 600px) and (max-width: 640px) {
+  .aboutUs{
+    margin-right: 0px !important;
+  }
+}

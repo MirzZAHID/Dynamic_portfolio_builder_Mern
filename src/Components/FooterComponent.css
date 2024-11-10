@@ -1,0 +1,52 @@
+/* src/components/FooterComponent.css */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  padding-left: 120px; /* Adjust padding for smaller screens */
+  padding-right: 120px; /* Adjust padding for smaller screens */
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap; /* Allow sections to wrap to the next line on smaller screens */
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 20px; /* Add space between sections on smaller screens */
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin: 0;
+}
+
+.footer-bottom {
+  margin-top: 20px; /* Adjust margin for smaller screens */
+  text-align: center;
+}
+
+/* Additional Media Queries for Smaller Screens */
+@media only screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Stack sections vertically on smaller screens */
+  }
+
+  .footer-section {
+    width: 100%; /* Full width for each section on smaller screens */
+  }
+
+  .footer {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+
+  }
+}

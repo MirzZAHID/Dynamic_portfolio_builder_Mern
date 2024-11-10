@@ -1,0 +1,68 @@
+{
+  "name": "resumetemplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^x.x.x",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "@material-tailwind/react": "^2.1.9",
+    "@mui/icons-material": "^5.15.2",
+    "@mui/material": "^5.15.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.5",
+    "bootstrap": "^5.3.2",
+    "jspdf": "^2.5.1",
+    "react": "^18.2.0",
+    "react-avatar-edit": "^1.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.2",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "react-speech-recognition": "^3.10.0",
+    "react-toastify": "^10.0.5",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.2",
+    "slick-carousel": "^1.8.1",
+    "uniqid": "^5.4.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "## Folder Structure +---public |       apple-icon.png |       favicon.ico |       index.html |       logo192.png |       logo512.png |       manifest.json |       robots.txt |        \\---src     |   App.js     |   index.css     |   index.js     |   Store.js     |        +---Components     |   |   CheckSelectedId.js     |   |        |   +---BackNextBtn     |   |       BackNextBtnComponent.css     |   |       BackNextBtnComponent.js     |   |            |   +---BlackScreen     |   |       BlackScreen.css     |   |       BlackScreen.js     |   |            |   +---DetailFillingSidebar     |   |       DetailFillingSidebar.js     |   |       DetailsFillingSideBar.css     |   |            |   +---Education     |   |       EducationComponent.css     |   |       EducationComponent.js     |   |            |   +---Header     |   |       TemplateHeader.css     |   |       TemplateHeader.js     |   |            |   +---Heading     |   |       TemplateHeading.css     |   |       TemplateHeading.js     |   |            |   +---Input     |   |       InputComponent.css     |   |       InputComponent.js     |   |            |   +---KeySkills     |   |       KeySkillsComponent.css     |   |       KeySkillsComponent.js     |   |            |   +---MainBar     |   |       Navbar.css     |   |       Navbar.js     |   |            |   +---PersonalInfo     |   |       PersonalInfoComponent.css     |   |       PersonalInfoComponent.js     |   |            |   +---Preview     |   |       PreviewComponent.css     |   |       PreviewComponent.js     |   |            |   +---Select     |   |       SelectComponent.css     |   |       SelectComponent.js     |   |            |   +---TemplateEducation     |   |       TemplateEducationComponent.css     |   |       TemplateEducationComponent.js     |   |            |   +---TemplateKeySkill     |   |       TemplateKeySkillComponent.css     |   |       TemplateKeySkillComponent.js     |   |            |   +---TemplateOneExperience     |   |       TemplateOneExperienceComponent.css     |   |       TemplateOneExperienceComponent.js     |   |            |   \\---WorkExperience     |           WorkExperienceComponent.css     |           WorkExperienceComponent.js     |                +---Pages     |   |   AboutUs.js     |   |   DetailsFilling.js     |   |   Home.js     |   |   index.js     |   |   MyResumes.js     |   |        |   \\---Styles     |           DetailsFilling.css     |           Home.css     |           MyResumes.css     |                +---Redux     |   +---Actions     |   |       actions.js     |   |            |   \\---Reducers     |           combinedReducers.js     |           reducers.js     |                \\---Utils         |   inputChecks.js         |            +---Data         |       data.js         |       templates.js         |                +---Images         |       aboutCV.jpg         |       sample_1.jpg         |       sample_2.jpg         |       sample_3.jpg         |       sample_4.jpg         |                \\---Templates                 Template.css                 Template1.js                 Template2.js                 Template3.js                 Template4.js                 Template5.js                 Template6.js",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
